@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home – Copilot Agents</title>
+  <title>Copilot Agents – Home</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,16 +16,15 @@
 
 <body>
 
-  <!-- NAVIGATION BAR -->
+  <!-- UPDATED NAVIGATION BAR -->
   <nav>
     <div class="nav-left">
       <a href="index.html">Home</a>
       <a href="agents.html">Agents</a>
       <a href="how-it-works.html">How It Works</a>
-      <a href="theme-preview.html">Themes</a>
-      <a href="art-gallery.html">Art Gallery</a>
       <a href="profiles.html">Profiles</a>
       <a href="about.html">About</a>
+      <a href="terms.html">Terms & Policies</a>
     </div>
     <div class="theme-toggle">Toggle Theme</div>
   </nav>
@@ -34,14 +33,12 @@
   <div class="swirl-layer">
     <svg viewBox="0 0 800 600">
       <defs>
-        <!-- Light Mode Gradient -->
         <linearGradient id="lightSwirl" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stop-color="#C89B2B" />
           <stop offset="50%" stop-color="#0B7C4A" />
           <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
         </linearGradient>
 
-        <!-- Dark Mode Gradient -->
         <linearGradient id="darkSwirl" x1="0" y1="1" x2="1" y2="0">
           <stop offset="0%" stop-color="#5B2B9B" />
           <stop offset="50%" stop-color="#B57CFF" />
@@ -49,7 +46,6 @@
         </linearGradient>
       </defs>
 
-      <!-- Swirl Shapes -->
       <path class="swirl-glow"
             d="M-40 120 C 160 -40 360 40 520 80"
             stroke="url(#lightSwirl)"
@@ -74,24 +70,25 @@
 
   <!-- PAGE CONTENT -->
   <div class="page">
-    <h1>Your AI Agent Lineup</h1>
+    <h1>Welcome to the Copilot Multi‑Agent System</h1>
     <p class="subtitle">
-      A structured set of specialized AIs, each with a distinct tone and job—designed to work together like a real team.
+      A coordinated lineup of specialized AI agents designed to work together.
     </p>
 
-    <div class="section">
-      <h2>Start with the Agents</h2>
-      <p>Visit the Agents page to see each AI’s role, tone, and responsibilities.</p>
-    </div>
+    <div class="preview-grid">
+      <div class="preview-card">
+        <div class="preview-title">Meet the Agents</div>
+        <div class="preview-desc">
+          Explore the personalities, roles, and strengths of each AI agent.
+        </div>
+      </div>
 
-    <div class="section">
-      <h2>See How They Work Together</h2>
-      <p>Explore the “How It Works” page to understand the pipeline and strategy behind your lineup.</p>
-    </div>
-
-    <div class="section">
-      <h2>Experience the Themes</h2>
-      <p>Use the theme toggle and visit the Theme Preview page to compare Light and Dark modes.</p>
+      <div class="preview-card">
+        <div class="preview-title">How It Works</div>
+        <div class="preview-desc">
+          Learn how the agents collaborate to produce high‑quality results.
+        </div>
+      </div>
     </div>
   </div>
 
